@@ -72,7 +72,7 @@ def user_input(user_question):
 
 
 def main():
-    st.set_page_config("Chat PDF")
+    st.set_page_config("PDF Converse")
     st.header("Chat with PDF")
 
     pdf_docs = st.file_uploader(

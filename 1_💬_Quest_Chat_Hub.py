@@ -3,17 +3,6 @@ import os
 import google.generativeai as genai
 
 from dotenv import load_dotenv
-from st_pages import Page, show_pages
-
-show_pages(
-    [
-        Page("app.py", "Quest Chat Hub", "💬"),
-        Page("pages/vision.py", "Snap Speak", "📸"),
-        Page("pages/invoice.py", "Invoice Xtract", "💼"),
-        Page("pages/health.py", "Calorie Lens", "🍏"),
-        Page("pages/chat_pdf.py", "PDF Converse", "📄"),
-    ]
-)
 
 load_dotenv()
 
@@ -30,7 +19,7 @@ def get_gemini_response(question):
 
 
 ##initialize our streamlit app
-st.set_page_config(page_title="QuestChat Hub")
+st.set_page_config(page_title="Quest Chat Hub")
 st.header("How can I help you today?")
 
 # Initialize session state for chat history if it doesn't exist
