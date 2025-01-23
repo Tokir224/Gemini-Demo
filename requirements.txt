@@ -9,3 +9,4 @@ pdf2image
 faiss-cpu
 langchain_google_genai
 keras
+langchain_community
