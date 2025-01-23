@@ -8,5 +8,6 @@ chromadb
 pdf2image
 faiss-cpu
 langchain_google_genai
+tensorflow
 keras
 langchain_community
